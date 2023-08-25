@@ -1,0 +1,17 @@
+{% extends 'flatpages/default.html' %}
+
+{% block title %}
+{{ flatpage.title }}
+{% endblock title %}
+
+<h1> {{ flatpage.title }} </h1>
+
+{% block content %}
+<h3> {{ flatpage.content }}  {{ flatpage.content }}</h3>
+<hr>
+<p style="font-size: 20px">
+    <i> You can find tracking information in your order details. If an order includes multiple items,
+    each may have separate delivery dates and tracking information. </i>
+</p>
+
+{% endblock content %}
